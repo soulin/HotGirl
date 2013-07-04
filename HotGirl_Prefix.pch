@@ -1,0 +1,37 @@
+//
+// Prefix header for all source files of the 'HotGirl' target in the 'HotGirl' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+// DebugLog is almost a drop-in replacement for NSLog
+// DebugLog();
+// DebugLog(@"here");
+// DebugLog(@"value: %d", x);
+// Unfortunately this doesn't work DebugLog(aStringVariable); you have to do this instead DebugLog(@"%@", aStringVariable);
+#if TARGET_IPHONE_SIMULATOR
+
+#define DebugLog(fmt, ...) NSLog((@"%s [%d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#define DebugObj(...) NSLog((@"%s [%d] %@"), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+#define UIAlertLog(fmt, ...)  { UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"%s\n [%d] ", __PRETTY_FUNCTION__, __LINE__] message:[NSString stringWithFormat:fmt, ##__VA_ARGS__]  delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil]; [alert show]; }
+
+#define DebugRect(arg) DebugLog(@"CGRect( %f, %f, %f, %f)", arg.origin.x, arg.origin.y, arg.size.width, arg.size.height);
+
+#define DebugPoint(arg) DebugLog(@"CGPoint(%f, %f )", arg.x, arg.y);
+
+#else
+
+#define DebugLog(...)
+#define DebugObj(...)
+#define UIAlertLog(...)
+#define DebugRect(arg)
+#define DebugPoint(arg)
+
+#endif
+
+// ASLog always displays output regardless of the DEBUG setting
+#define ASLog(fmt, ...) NSLog((@"%s [%d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);

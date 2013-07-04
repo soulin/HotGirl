@@ -1,0 +1,44 @@
+/* 
+   Localizable.strings
+   HotGirl
+
+   Created by 李云天 on 10-10-14.
+   Copyright 2010 iHomeWiki. All rights reserved.
+ */
+"welcome" = "Welcome";
+
+// Save image to SavedPhotosAlbum
+"UIImageWriteToSavedPhotosAlbumOK" = "The photo is writed to the Saved Photos Album.";
+"UIImageWriteToSavedPhotosAlbumFail" = "Saved failure.";
+
+// Mail sent result
+"MailResultSaved" = "Result: draft saved";
+"MailResultSent" = "Result: mail sent";
+"MailResultFailed" = "Result: failed";
+"MailNotSent" = "Result: not sent";
+
+// Button Title
+"ButtonOK" = "OK";
+"ButtonCancel" = "Cancel";
+
+// 共享
+"Share" = "Share";
+"Share.Savetoalbum" = "Save to Album";
+"Share.Mailtoother" = "Send by Email";
+
+// About
+"About" = "About";
+"AboutIHomeWiki" = "About iHomeWiki";
+"AboutIHomeWikiApps" = "iHomeWiki Apps";
+"AboutHotGirl" = "About Moko Top Girl";
+"AboutHotGirlVersion" = "Version";
+"AboutHotGirlWebsite" = "Website";
+"AboutHotGirlCopyright" = "Copyright";
+"OpenURLInSafari" = "Note: the website will be opened in Safari.\n\n";
+"AboutBack" = "Back";
+
+// APP
+"AppBaiduZhidaoHD" = "BaiduZhidao HD";
+"AppBaiduZhidao" = "BaiduZhidao";
+"AppHealthFitness" = "Health && Fitness";
+"AppHealthFitnessFree" = "Health && Fitness Free";

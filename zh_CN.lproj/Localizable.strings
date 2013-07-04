@@ -1,0 +1,44 @@
+/* 
+   Localizable.strings
+   HotGirl
+
+   Created by 李云天 on 10-10-14.
+   Copyright 2010 iHomeWiki. All rights reserved.
+ */
+"welcome" = "欢迎。";
+
+// 保存图片到相册
+"UIImageWriteToSavedPhotosAlbumOK" = "成功保存到：存储的照片。";
+"UIImageWriteToSavedPhotosAlbumFail" = "保存失败。" ;
+
+// 发送邮件提示
+"MailResultSaved" = "草稿已经存储。";
+"MailResultSent" = "邮件已经成功发送。";
+"MailResultFailed" = "邮件发送失败。";
+"MailNotSent" = "邮件未发送，请检查您的网络环境。";
+
+// 按钮标题
+"ButtonOK" = "确定";
+"ButtonCancel" = "取消";
+
+// 共享
+"Share" = "分享";
+"Share.Savetoalbum" = "保存到系统照片";
+"Share.Mailtoother" = "通过电子邮件发送图片";
+
+// 关于
+"About" = "关于";
+"AboutIHomeWiki" = "关于家庭百科";
+"AboutIHomeWikiApps" = "iHomeWiki 的应用";
+"AboutHotGirl" = "关于美空超级美女榜";
+"AboutHotGirlVersion" = "版本";
+"AboutHotGirlWebsite" = "网址";
+"AboutHotGirlCopyright" = "版权";
+"OpenURLInSafari" = "注意，将在Safari中打开此链接。\n\n";
+"AboutBack" = "返回";
+
+// APP
+"AppBaiduZhidaoHD" = "百度知道 HD";
+"AppBaiduZhidao" = "百度知道";
+"AppHealthFitness" = "健康与保健";
+"AppHealthFitnessFree" = "健康与保健 免费版";
